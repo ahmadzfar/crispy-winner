@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+     html, body{
+         width: 100%;
+         height: 100%;
+     }
+     #main{
+         width: 100%;
+         height: 100%;
+         background-image: url(background.avif);
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         position: relative;
+         
+     }
+     #main #left{
+         width: 30%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, 0.693);
+         position: relative;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         padding: 0 100px;
+         gap: 50px;
+        
+     }
+     #main #right{
+         width: 70%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, 0.193); 
+         z-index: 9999;
+        position: relative;
+       
+     }
+     #nav{
+         width: 100%;
+         height: 10%;
+         background-color: black;
+         position: absolute;
+         color: white;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+         z-index: 9999;
+      
+     }
+     #nav a{
+         color: white;
+         text-decoration: none;
+         font-weight: 600;
+        
+     }
+     #nav i{
+         font-weight: 600;
+        
+     }
+     .text h4{
+         color: white;
+         position: absolute;
+         width: 100%;
+         line-height: 0;
+         opacity: 0.7;
+         font-weight: 600;
+        
+     }
+     .text:nth-child(2) h1{
+         font-size: 150px;
+         color: white;
+         margin-left: 350px;
+         font-weight: 300;
+         line-height: 0.5;
+        
+     }
+     .text p{
+         color: white;
+         width: 100%;
+         opacity: .7;
+         font-size: larger;
+         
+     }
+     .text a{
+         color: white;
+         text-decoration: none;
+         margin-right: 150px;
+       
+     }
+     #maintext{
+         color: white;
+         position: absolute;
+         top: 20%;
+        position: absolute;
+       margin-left: 100px;
+       
+     }
+     #maintext p{
+         width: 300px;
+         padding-top: 15px;
+     }
+     #card{
+         position: absolute;
+         bottom: 20%;
+         left: 50%;
+         transform: translate(0, 50%);
+         color: white;
+        width: 25%;
+        height: 30px;
+        display: flex;
+     }
+     #mainleft{
+         width: 30%;
+         height: 70px;
+        background-image: url(card.avif);
+        background-size: cover;
+        background-position: center;
+     }
+     #mainright{
+         width: 70%;
+         height: 70px;
+        background-color: rgba(255, 255, 255, 0.334);
+        color: rgb(255, 255, 255);
+         padding: 10px;
+     }
+     #star{
+         position: absolute;
+         top: 50%;
+         left: 40%;
+         transform: translate(-50%, -50%);
+        transform-origin: 0 50%;
+        rotate: -40deg;
+        padding: 50px;
+     }
+     #star i{
+         color: gold;
+         padding: 70px;
+         font-size: 30px;
+     }
+    
+ 
+     
+ 
+ 
